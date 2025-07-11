@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Library Management System ",
+    "image": "./projectImages/weather.png",
+    "description": "This project is a full stack web project that allows to manage a library system digitally with PSQL.There are two panels in this project namely the admin and user.It digitally calculates the fine amount,sends alert to return the book and the user can also reserve the book if it is not available.",
+    "technologies": "ReactJS | Postgres | Node-JS",
+    "github": "https://github.com/Danaendraraj-R/Library-Management-System-PSQL",
+    "bgcolor": "#f37737",
+    "id": "1"
+  },
+  {
+    "title": "Post Office Management System ",
+    "image": "./projectImages/weather.png",
+    "technologies": "JSP | HTML | CSS | Postgres | Java Servlet",
+    "description": "This project is a full stack web project that allows to manage a Post-Office system digitally with Java,PSQLand JSP.The JAAS authenication is implemented which enables the IAM in this project.It also contains a dynamic export module which allow users to export the tables in PDF and XLSX format.",
+    "github": "https://github.com/Danaendraraj-R/post-office-management-system",
+    "bgcolor": "#29cbe0",
+    "id": "2"
+  },
+  {
+    "title": "Industry Specific Intelligent Fire Management System",
+    "image": "./projectImages/weather.png",
+    "technologies": "Node-RED | IBM Watson IOT | Python | Wokwi",
+    "description": "Developed an intelligent fire management system tailored for industrial environments using Node-RED,IBM Watson IoT Platform, and Wokwi simulation platform. Utilized Python for data analysis and decision-makingalgorithms.",
+    "github": "https://github.com/Danaendraraj-R/Industry-Specific-Intelligent-Fire-Management-System-PBL",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Industrial Fire IOT Management System",
+    "image": "./projectImages/weather.png",
+    "technologies": "React-JS | Node-JS | Blynk | IOT ",
+    "description": " Designed and implemented a web-based industrial fire management system using ReactJS for the frontend and IoT technologies for real-time data acquisition. Integrated with Arduino-based sensors and actuators for fire detection and suppression.This Dashboard displays the data from the IOT Devices and displays it on the dasboard,it also specifies the working conditions of all the equipments.",
+    "github": "https://github.com/Danaendraraj-R/industrial-fire-management-system",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+  {
+    "title": "Expense Tracker Application",
+    "image": "./projectImages/weather.png",
+    "technologies": "JSP | Java Servlets | AJAX | Jquery | Postgres ",
+    "description": ":Efficient Expense Tracker Application leveraging PostgreSQL for robust data management and JSP fordynamic web interface, streamlining expense monitoring and financial management tasks with ease",
+    "github": "https://github.com/Danaendraraj-R/Expense-Tracker-Application",
+    "bgcolor": "#f54242",
+    "id": "5"
+  },
+  {
+    "title": "Project Management and Tracking Application",
+    "image": "./projectImages/weather.png",
+    "technologies": "JSP | Java Servlets | AJAX | Jquery | Postgres",
+    "description": "Project management system developed using HTML, CSS, JSP, Java Servlets, and PSQL for database management. Implemented features for task tracking, team collaboration, and project documentation.",
+    "github": "https://github.com/Danaendraraj-R/Project-Management-Application-using-JSP-Servlets-PSQL",
+    "bgcolor": "#42f54e",
+    "id": "6"
+  }
+
+]
