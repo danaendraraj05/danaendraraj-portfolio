@@ -1,0 +1,74 @@
+/* Base styles for both mobile and desktop */
+.Internship {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center */
+  margin-top: var(--spacing);
+  width: 100%; /* Set width to 100% for responsiveness */
+}
+
+.mediaWrap {
+  border-left: 2px solid var(--grey);
+  padding-left: var(--sm-spacing);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.Internship .socialIcons {
+  display: none;
+}
+
+/* Media query for desktop */
+@media (min-width: 750px) {
+  .Internship {
+    flex-direction: column; /* Change flex direction for desktop */
+    justify-content: space-between; /* Align items to the start and end for desktop */
+    align-items: center; /* Align items in the center */
+    width: 800px; /* Adjust width for desktop */
+    margin: auto; /* Center align the container */
+  }
+
+  .mediaWrap {
+    border-left: none; /* Remove border for desktop */
+    padding-left: 0; /* Remove padding for desktop */
+    padding-top: 0; /* Remove padding for desktop */
+    padding-bottom: 0;
+    margin-right: var(--sm-spacing);
+  }
+
+  .Internship .socialIcons {
+    display: inline; /* Display social icons for desktop */
+    padding-bottom: var(--sm-spacing);
+  }
+
+  .Internship .socialIcons::before,
+  .Internship .socialIcons::after {
+    background-color: var(--grey);
+    content: "";
+    height: 2px;
+    width: var(--spacing);
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 10px;
+  }
+}
+
+/* Additional styles for the timeline component */
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+.timeline-item h3, .timeline-item h4 {
+  margin: 5px 0;
+}
+
+.timeline-item p {
+  color: #FFD700;
+}
+
+/* Increase the thickness of the timeline line */
+.vertical-timeline::before {
+  background: #000;
+  width: 5px; /* Adjust this value to increase the thickness */
+  left: 22px; /* Adjust position if needed */
+}

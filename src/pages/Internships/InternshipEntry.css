@@ -1,0 +1,40 @@
+.internshipEntry {
+    border: 1px solid #FFD700;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Adjusted to 100% width for responsiveness */
+    max-width: 840px; /* Added max-width to maintain responsiveness on larger screens */
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+
+  .entryTitle {
+    font-weight: bold;
+    color: #FFD700;
+  }
+
+  .entryInfo {
+    margin-top: 5px;
+  }
+
+  .descriptionHeading {
+    display: inline-block;
+  }
+
+  .descriptionList {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+
+  .descriptionInfo {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  /* Media query for desktop */
+  @media screen and (min-width: 768px) {
+    .internshipEntry {
+      width: 100%; /* Adjusted to 50% width for desktop screens */
+    }
+  }
